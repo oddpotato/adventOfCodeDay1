@@ -17,7 +17,6 @@ class DayOne:
         self.day1List1.sort()
         self.day1List2.sort()
         result = list(map(lambda x, y: abs(x - y), self.day1List1, self.day1List2))
-        print("Should be: 3508942 and is: "+ str(sum(result)))
         print(sum(result))
         return sum(result)
     
